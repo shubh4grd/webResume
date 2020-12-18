@@ -1,9 +1,13 @@
 body{
     margin: 5%;
     background-color: cadetblue;
+    font-family: 'Fauna One', serif;
+    font-size: 16px;
+    
 }
 .contact{
     display: flex;
+    font-size: 14px;
 }
 .secondHalf{
     padding-left: 10%;
@@ -13,20 +17,52 @@ body{
     border: none;
     box-shadow: 0px 0px 10px;
     padding: 5%;
+    padding-top: 2%;
     background-color: white;
     position: relative;
-    left: 12%;
+    left: 12%;    
+}
+h1{
+    font-family: Cinzel, serif;
+    font-size: 38px;  
 }
 img{
     width: 40px;height: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
 }
 h3{
-    background-color: paleturquoise;
+    background: -moz-linear-gradient(top,  #5F9EA0 0%, rgba(0,0,0,0) 100%); 
+    background: -webkit-linear-gradient(top, #5F9EA0 0%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to bottom, #5F9EA0 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    
 }
 a{
     text-decoration: none;
     color: black;
+
+}
+i{
+    opacity: 0.7;
+    transition: transform .2s;
+}
+i:hover{
+    cursor: pointer;
+    /* transform: scale(1.1); */
+    opacity: 1;
 }
 .box{
     display: flex;
+    line-height: 5px;
+    margin-bottom: 2%;
+}
+.value{
+    font-size: 10px;
+}
+.name{
+    font-size: 15px;
+}
+.sub{
+    font-size: 12px;
 }
