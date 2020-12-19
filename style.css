@@ -8,9 +8,11 @@ body{
 .contact{
     display: flex;
     font-size: 14px;
+    vertical-align: auto;
 }
 .secondHalf{
     padding-left: 10%;
+    overflow: hidden;
 }
 .container{
     width: 70%;
@@ -41,7 +43,6 @@ h3{
 a{
     text-decoration: none;
     color: black;
-
 }
 i{
     opacity: 0.7;
@@ -51,6 +52,9 @@ i:hover{
     cursor: pointer;
     /* transform: scale(1.1); */
     opacity: 1;
+}
+.link:hover{
+    color: steelblue;
 }
 .box{
     display: flex;
@@ -62,7 +66,14 @@ i:hover{
 }
 .name{
     font-size: 15px;
+    line-height: normal;
 }
 .sub{
     font-size: 12px;
+}
+li{
+    display: inline-block;
+}
+span{
+    color:steelblue;
 }
